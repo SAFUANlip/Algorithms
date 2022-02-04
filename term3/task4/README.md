@@ -110,14 +110,22 @@ Output to the output file the sum of the vertex numbers - responses to all queri
 
 ### Output standard output or output.txt
 Implement the data structure “array of strings" based on a Cartesian tree by an implicit key with the following methods:
-    // Adding a line to the position.\\
+// Adding a line to the position.\\
+
 // All subsequent lines are shifted one position forward.\\
+
 void InsertAt( int position, const std::string& value );\\
+
 // Deleting a string from position.\\
+
 // All subsequent lines are shifted one position back.\\  
+
     void DeleteAt( int position );\\
+
 // Getting a string from position.\\  
+
     std::string GetAt( int position );
+
 All methods should work in O(log n) on average, where n is the current number of rows in the array.
 
 ### Input format
