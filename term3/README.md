@@ -1,7 +1,7 @@
 ## Program
 1. Graph traversals.
-1.1. Oriented graph, pseudograph.  Undirected graph, pseudograph.  Connectivity in neor.  graph, connectivity components. Weak and strong connectivity in the or. graph.  Components of weak, strong connectivity. 
-1.2. Deep crawl.  Vertex colors.  Entry and exit times.  The white paths lemma (with proof). 
+> 1.1. Oriented graph, pseudograph.  Undirected graph, pseudograph.  Connectivity in neor.  graph, connectivity components. Weak and strong connectivity in the or. graph.  Components of weak, strong connectivity. 
+> 1.2. Deep crawl.  Vertex colors.  Entry and exit times.  The white paths lemma (with proof). 
 1.3. Checking the connectivity of an undirected graph.  Search for a cycle in an undirected and oriented graph.  Topological sorting.
 1.4. Finding components of strong connectivity.  Kosarayu algorithm with proof of correctness (concept).  Tarjan's algorithm without proof of correctness. 
 1.5. Components of edge disjointedness.  Bridges.  Search for bridges. 
