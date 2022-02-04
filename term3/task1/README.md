@@ -1,12 +1,16 @@
 # A. For milk
 
-### Time limit 2 seconds
+### Time limit
+2 seconds
 
-### Memory limit 256Mb
+### Memory limit
+256Mb
 
-### Input standard input or input.txt
+### Input standard
+input or input.txt
 
-### Output standard output or output.txt
+### Output standard
+output or output.txt
 
 
 Leon and Matilda were going to go to the store for milk. Stansfield wants to catch them, so our comrades need to do it as soon as possible. What is the minimum number of streets that at least one of the guys will pass through (either Matilda, or Leon, or both together). We believe that both friends need to get to the store necessarily.
