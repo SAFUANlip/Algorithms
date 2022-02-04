@@ -64,9 +64,9 @@ You can add edges to the graph for a certain cost. For adding an edge between ve
 How many coins will you need minimally to make the graph connected? A graph is connected if it is possible to get from each vertex to any other vertex
 
 ### Input format
-The first line contains two integers n and m (1 ≤ n ≤ 2 105 105, 0 ≤ m ≤ 2 ⋅ 105) — the number of vertices in the graph and special offers, respectively.
+The first line contains two integers n and m (1 ≤ n ≤ 2 ⋅ 10^5, 0 ≤ m ≤ 2 ⋅ 10^5) — the number of vertices in the graph and special offers, respectively.
 
-The second line contains n integers (1 ≤ ai ≤ 10^12) — the numbers written on the vertices.
+The second line contains n integers a1, a2, a3, ... an (1 ≤ ai ≤ 10^12) — the numbers written on the vertices.
 
 Then follow m lines, each of which contains three integers x, y and w (1 ≤ x, y ≤ n, 1 ≤ w ≤ 10^12, x ≠ y), denoting a special offer: you can add an edge between the vertices x and y for w coins.
 
