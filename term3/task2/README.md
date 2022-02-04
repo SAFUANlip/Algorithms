@@ -111,7 +111,7 @@ The first line contains four numbers: N is the number of currencies, M is the nu
 
 In each exchanger, exchange rates and commissions are real numbers specified with an accuracy of no more than two decimal places in decimal representation, and .
 
-Let's call the sequence of exchange operations simple if each exchanger is used in it no more than once. You can assume that the ratio of Rick's total sum to the original one will not exceed 104 for any simple sequence of operations.
+Let's call the sequence of exchange operations simple if each exchanger is used in it no more than once. You can assume that the ratio of Rick's total sum to the original one will not exceed 10^4 for any simple sequence of operations.
 
 ### Output format
 If Rick can increase his capital, output YES, otherwise output NO.
