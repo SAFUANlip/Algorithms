@@ -109,7 +109,7 @@ Rick has some amount in S currency. He wonders if it is possible, after several 
 ### Input format
 The first line contains four numbers: N is the number of currencies, M is the number of exchangers, S is the currency that the Rik has, and V is the number of units of this currency. The next M lines contain 6 numbers each, which specify the description of the corresponding exchangers in the format described above. The numbers are separated by one or more spaces. The constraints are met (1 ≤ S ≤ N ≤ 100), (1 ≤ M ≤ 100), 0 ≤ V ≤ 10^3 is a real number, .
 
-In each exchanger, exchange rates and commissions are real numbers specified with an accuracy of no more than two decimal places in decimal representation, and .
+In each exchanger, exchange rates and commissions are real numbers specified with an accuracy of no more than two decimal places in decimal representation, and 10^-2 ≤ rate 10^2, 0 ≤ comission ≤ 10^2.
 
 Let's call the sequence of exchange operations simple if each exchanger is used in it no more than once. You can assume that the ratio of Rick's total sum to the original one will not exceed 10^4 for any simple sequence of operations.
 
