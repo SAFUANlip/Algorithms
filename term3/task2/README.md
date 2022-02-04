@@ -63,7 +63,7 @@ Next, in M lines, a description of teleportations is given in the format Si, Fi,
 ### Output format
 The probability of being beaten with an accuracy of 10-6.
 
-
+---
 # D. Look What You Made Rick Do
 
 ### Time limit 1 second
@@ -107,7 +107,7 @@ You know for sure that only N currencies are used in the city. We number them wi
 Rick has some amount in S currency. He wonders if it is possible, after several exchange operations, to increase his capital. Of course, he wants his money to be in S currency again at the end. Help him answer his question. Rick should always have a non-negative amount of money.
 
 ### Input format
-The first line contains four numbers: N is the number of currencies, M is the number of exchangers, S is the currency that the Rik has, and V is the number of units of this currency. The next M lines contain 6 numbers each, which specify the description of the corresponding exchangers in the format described above. The numbers are separated by one or more spaces. The constraints are met , V is a real number, .
+The first line contains four numbers: N is the number of currencies, M is the number of exchangers, S is the currency that the Rik has, and V is the number of units of this currency. The next M lines contain 6 numbers each, which specify the description of the corresponding exchangers in the format described above. The numbers are separated by one or more spaces. The constraints are met 1<=S<=N<=100, V is a real number, .
 
 In each exchanger, exchange rates and commissions are real numbers specified with an accuracy of no more than two decimal places in decimal representation, and .
 
