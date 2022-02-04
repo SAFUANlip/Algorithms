@@ -43,3 +43,26 @@ The next m lines contain descriptions of edges, one per line. Each of the rows c
 If there is no such order, then print "NO" (without quotes).
 
 Otherwise, print "YES" to the first of the lines. In the second line, output a permutation of the vertex indices (integers from 0 to n - 1), such that for each edge its starting vertex is strictly to the left of its ending vertex.
+
+
+---
+# C. Districts, blocks, residential areas
+
+### Time limit 1 second
+
+### Memory limit 256Mb
+
+### Input standard input or input.txt
+
+### Output standard output or output.txt
+
+
+Frank got a new order again. However, this time the city is playing by very strange rules: all roads in the city are one-way and connect only the offices of the employers of the carrier. A set of offices, between any two of which there is a path, form a block if no others can be added so that the condition is met. Frank is wondering what is the minimum number of one-way roads still need to be built so that the whole city becomes a quarter.
+
+### Input format
+The first line contains a pair of integers n and m (1 ≤ n ≤ 105, 0 ≤ m ≤ 105) — the number of vertices and edges of a given directed graph.
+
+The next m lines contain descriptions of edges, one per line. Each of the lines contains two integers a and b (1 ≤ a, b ≤ n) — the beginning and end of the edge.
+
+### Output format
+Print one number — the number of roads that need to be added so that the whole city becomes one block.
