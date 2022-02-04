@@ -1,4 +1,4 @@
-##Program
+## Program
 1. Graph traversals.
 1.1. Oriented graph, pseudograph.  Undirected graph, pseudograph.  Connectivity in neor.  graph, connectivity components. Weak and strong connectivity in the or. graph.  Components of weak, strong connectivity. 
 1.2. Deep crawl.  Vertex colors.  Entry and exit times.  The white paths lemma (with proof). 
