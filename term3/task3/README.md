@@ -74,3 +74,26 @@ Then follow m lines, each of which contains three integers x, y and w (1 ≤ x, 
 Print a single integer — the minimum number of coins that must be spent to make the graph connected.
 
 ---
+
+# D. Broken Bridge (4 points)
+
+### Time limit 1 second
+
+### Memory limit 256Mb
+
+### Input standard input or input.txt
+
+### Output standard output or output.txt
+
+
+Shrek needs to get into the tower to save the beautiful Princess Fiona. And now his path lies through an old dilapidated bridge. The donkey is very afraid of falling from this bridge into the lava river below it and refuses to go further until the bridge is completely repaired. Shrek can't go without a friend and decided to repair it.
+
+The bridge is a field of n × m cells, with some cells still intact. Shrek has only 1 × 2 tablets, the installation of which takes him a seconds, and 1 × 1, the installation of which takes b seconds. He needs to close all the empty cells, and only them, without putting the plates on top of each other.
+
+Determine the minimum number of seconds after which Shrek and the Donkey will be able to continue their journey further.
+
+### Input format
+The first line of the input file contains 4 integers n, m, a, b (1 ≤ n, m ≤ 100, |a/ ≤ 1,000, |b| ≤ 1,000). Each of the following n lines contains m characters: the symbol "." (dot) denotes the whole cell of the bridge, and the symbol "*" (asterisk) is empty.
+
+### Output format
+Output one number to the output file — the minimum number of seconds after which our heroes will be able to continue their journey by closing the empty cells of the bridge (them and only them).
