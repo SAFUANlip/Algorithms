@@ -66,3 +66,23 @@ The next m lines contain descriptions of edges, one per line. Each of the lines 
 
 ### Output format
 Print one number — the number of roads that need to be added so that the whole city becomes one block.
+
+---
+# D. "Touch of Death" or a five-point strike
+
+### Time limit 1 second
+
+### 64Mb memory limit
+
+### Input standard input or input.txt
+
+### Output standard output or output.txt
+
+
+Beatrix Kiddo was a mercenary in her youth and loved to make graphs of connections between her goals. She hung needles on the wall and tied them with threads. But since she is half Japanese, she especially liked when the goals could be arranged so that the threads did not intersect. You know the scheme that Beatrix wants to draw. Find out if she might like the scheme this time?
+
+### Input format
+v:number of Beatrix goals (max. 1000), n: number of links between goals (max. 3000), n pairs of links.
+
+### Output format
+YES, if Kiddo can draw a scheme that she likes, NO - if she can't.
