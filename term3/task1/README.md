@@ -20,25 +20,26 @@ The next m lines contain the edges of the graph. Each line contains two numbers 
 One number is the number of edges.
 
 
+---
+# B. Secret materials
 
-# B. Секретные материалы
+### Time limit 1 second
 
-### Ограничение времени	1 секунда
+### Memory limit 256Mb
 
-### Ограничение памяти	256Mb
+### Input standard input or input.txt
 
-### Ввод	стандартный ввод или input.txt
+### Output standard output or output.txt
 
-### Вывод	стандартный вывод или output.txt
 
-Джон Макклейн сообщает по рации новую информацию о террористах в отдел с n полицейскими. Он звонит нескольким сотрудникам и просит распространить информацию по отделу, зная, что у каждого полицейского есть связь с определёнными коллегами. Джон Макклейн хочет, чтобы операция прошла успешно. Но если полицейский позвонит коллеге, от которого(возможно, не напрямую) сам получил информацию, террористы смогут отследить этот звонок и помешать операции. Если же двое сотрудников оповестят одного, ничего плохого не произойдёт. Помогите Джону Макклейну. Выведите NO, если кто-то из полицейских ошибётся, делая звонок. Если всё пройдёт хорошо, выведите YES и порядок, в котором полицейские получат информацию, считая, что полицейские оповещают коллег по возрастанию их номеров, а в начале Джон даёт информацию тем, кому не может позвонить никто из коллег.
+John McClain radioed new information about the terrorists to the department with n police officers. He calls several employees and asks them to spread information around the department, knowing that each police officer has a connection with certain colleagues. John McClain wants the operation to be successful. But if a policeman calls a colleague from whom (perhaps not directly) I got the information myself, the terrorists will be able to track this call and interfere with the operation. If two employees notify one, nothing bad will happen. Help John McClain. Output NO if one of the policemen makes a mistake making a call. If everything goes well, print YES and the order in which the police will receive information, assuming that the police notify colleagues in ascending order of their numbers, and at the beginning John gives information to those who none of his colleagues can call.
 
-### Формат ввода
-Первая строка содержит пару целых чисел n и m (1 ≤ n, m ≤ 105) — количество вершин и рёбер заданного ориентированного графа.
+### Input format
+The first line contains a pair of integers n and m (1 ≤ n, m ≤ 105) — the number of vertices and edges of a given directed graph.
 
-Следующие m строк содержат описания рёбер, по одному в строке. Каждая из строк содержит по два целых числа a и b (0 ≤ a, b < n) — начало и конец ребра.
+The next m lines contain descriptions of edges, one per line. Each of the rows contains two integers a and b (0 ≤ a, b < n) — the beginning and end of the edge.
 
-### Формат вывода
-Если такого порядка не существует, то выведите «NO» (без кавычек).
+### Output format
+If there is no such order, then print "NO" (without quotes).
 
-В противном случае, выведите «YES» в первую из строк. Во вторую строку выведите перестановку индексов вершин (целые числа от 0 до n - 1), такую, что для каждого ребра его стартовая вершина находится строго левее его конечной вершины.
+Otherwise, print "YES" to the first of the lines. In the second line, output a permutation of the vertex indices (integers from 0 to n - 1), such that for each edge its starting vertex is strictly to the left of its ending vertex.
