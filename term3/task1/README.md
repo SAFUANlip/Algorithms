@@ -1,7 +1,6 @@
 # A. For milk
 
-### Time limit
-2 seconds
+### Time limit ##### 2 seconds
 
 ### Memory limit
 256Mb
