@@ -97,3 +97,52 @@ The first line of the input file contains 4 integers n, m, a, b (1 ≤ n, m ≤ 
 
 ### Output format
 Output one number to the output file — the minimum number of seconds after which our heroes will be able to continue their journey by closing the empty cells of the bridge (them and only them).
+
+
+---
+# E. Stupid quarrel (4 points)
+
+### Time limit 1 second
+
+### Memory limit 256Mb
+
+### Input standard input or input.txt
+
+### Output standard output or output.txt
+Shrek and the Donkey were already on their way home. They had only to overcome the forest that separated them from the swamp. But they quarreled, so they don't want to go together.
+
+The forest consists of edges numbered from 1 to n and connected by m paths (there may be several paths connecting two edges, there may be paths connecting the edge with themselves). Because of a quarrel, if one of the friends walked along the path, then the second one can no longer walk along the same path. Now friends are at the edge with the number s, and Shrek's swamp is at the edge with the number t. Help Shrek and the Donkey get to the swamp.
+
+### Input format
+The first line of the file contains four integers - n, m, s and t (2 ≤ n ≤ 105, 0 ≤ m ≤ 105, s ≠ t). The next m lines contain pairs of numbers. A pair of numbers (x, y) means that there is a path from the edge of x to the edge of y (due to the terrain features, the paths are one-sided).
+
+### Output format
+If there is a solution, then print YES and on two separate lines, first the sequence of edges for Shrek, then the path for the Donkey.
+
+If there is no solution, print NO.
+
+If there are several solutions, output any one.
+
+
+---
+
+# F. Seating of guests (3 points)
+
+### Time limit 1 second
+
+### Memory limit 256Mb
+
+### Input standard input or input.txt
+
+### Output standard output or output.txt
+
+
+Shrek and Fiona invited all their friends to their wedding. At the ceremony, they want to seat them all into two non-empty parts so that the number of acquaintances between the two parts is minimal. There are n people invited to the wedding, and each acquaintance is mutual.
+
+You are given a graph in which an edge means acquaintance between people. Help Shrek and Fiona divide the guests into two non-empty parts.
+
+### Input format
+The first line of the input file contains an integer n (2 ≤ n ≤ 50) — the number of guests. Each of the following n lines contains n characters. the ith character of the jth of these lines is "1" if there is an edge between the vertices i and j, and "0" otherwise. The adjacency matrix defined in this way is antireflexive (there are zeros on the main diagonal) and symmetric (relative to the main diagonal).
+
+### Output format
+Output two lines to the output file. On the first one, print the numbers of the vertices that fell into the left part, separated by a space, and on the second - the numbers of the vertices that fell into the right part, also separated by a space. The vertex numbers can be output in any order.
