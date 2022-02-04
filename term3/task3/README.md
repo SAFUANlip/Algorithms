@@ -44,3 +44,6 @@ The graph is connected.
 
 ### Output format
 The first line of the output file must contain one natural number — the weight of the minimum spanning tree.
+
+
+---
