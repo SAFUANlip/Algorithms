@@ -1,5 +1,5 @@
 # Course program "Algorithms and data structures"
-### - 1. Basic structures, sorting algorithms, general algorithms.
+###  1. Basic structures, sorting algorithms, general algorithms.
   - 1.1 Abstract data structures: list, stack. Implementations.
   - 1.2 Abstract data structure: queue. Implementations.
   - 1.3 Minimum stack support, minimum queue support.
@@ -13,7 +13,7 @@
   - 1.11 Timsort.
   - 1.12 Greedy algorithms. Dynamic programming. Finding the largest increasing subsequence.
   - 1.13 Methods of response recovery in dynamic programming problems. The Levenshtein distance.
-### - 2. Trees and hash tables. 
+###  2. Trees and hash tables. 
   - 2.1. Trees. Tree traversals: pre-,in-,post-order. Bypass in width.
   - 2.2 Abstract data structure: associative array. Search trees: search, insert, delete.
   - 2.3 The need for balancing. Cartesian tree.
