@@ -8,12 +8,12 @@ Print the decomposition of a natural number n into prime factors. The prime fact
 
 ---
 
-# 1_3. Сумма дробей
+# 1_3. Sum of fractions
 Four non-negative numbers a, b, c and d are given. Add two rational fractions a/b and c/d, and present their result as an irreducible fraction m/n. Print the numbers m and n. a, b, c, d ≤ 1000.
 
 ---
 
-# 1_4. Сумма с большим делителем
+# 1_4. The sum with a large divisor
 Given a natural number N. Represent N as A + B, so that the NODE(A, B) is maximal, 1 ≤ A ≤ B. Output A and B. If multiple answers are possible, output the answer with the minimum A. 1 < n ≤ 10 000 000.
 
 ---
